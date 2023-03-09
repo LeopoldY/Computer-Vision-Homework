@@ -3,8 +3,8 @@ import cv2
 from scipy import ndimage
 
 # 将路径修改为你的路径
-lena = cv2.imread("1/lena.jpg", cv2.IMREAD_GRAYSCALE)
-blured = cv2.GaussianBlur(lena, (17, 17), 0)
+lena = cv2.imread("/Users/leopold/Documents/ComputerVisionHomework/1/Homework.jpeg", cv2.IMREAD_GRAYSCALE)
+blured = cv2.GaussianBlur(lena, (51, 51), 0)
 
 # sobel
 kernelSobel_X = np.array([[-1, 0, 1],
