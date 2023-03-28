@@ -45,7 +45,7 @@ good = cv2.drawMatchesKnn(
     img0, kp0, img1, kp1, good_matches[:25], merged, 
     matchColor=(0,255,0),flags=3)
 
-# Draw the best 25 matches.
+# Draw the bad 25 matches.
 bad = cv2.drawMatchesKnn(
     img0, kp0, img1, kp1, bad_matches[:25], merged, 
     matchColor=(255,0,0), flags=3)
